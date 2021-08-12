@@ -9,30 +9,20 @@ import DetailUserContainer from './containers/DetailUserContainer'
 import HelpContainer from './containers/HelpContainer'
 
 export default class App extends Component {
- 
- 
+
+
   render() {
     return (
       <div>
-        <NavbarComponent/>
-         <JumbotronComponent/>
-          <BrowserRouter>
-              <Route path="/" exact>
-                <HomeContainer/>
-              </Route>
-              <Route path="/create" exact>
-                <CreateUserContainer/>
-              </Route>
-              <Route path="/edit/:id" exact>
-                <EditUserContainer/>
-              </Route>
-              <Route path="/detail/:id" exact>
-                <DetailUserContainer/>
-              </Route>
-              <Route path="/help" exact>
-                <HelpContainer/>
-              </Route>
-          </BrowserRouter>
+        <NavbarComponent />
+        <JumbotronComponent />
+        <BrowserRouter>
+          <Route path="/" exact component={HomeContainer} />
+          <Route path="/create" exact component={CreateUserContainer} />
+          <Route path="/detail/:id" exact component={DetailUserContainer} />
+          <Route path="/edit/:id" exact component={EditUserContainer} />
+          <Route path="/help" exact component={HelpContainer}/>
+        </BrowserRouter>
       </div>
     )
   }

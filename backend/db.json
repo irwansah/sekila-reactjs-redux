@@ -3,80 +3,80 @@
     "users" : [
         {
             "id": 1,
-            "nama": "afif",
-            "alamat": "Pekalongan",
-            "umur": 24,
-            "nohp": "0857412312312"
+            "name": "irwan",
+            "address": "Cianjur, Indonesia",
+            "age": 24,
+            "phone": "085814429029"
         },
         {
             "id": 2,
-            "nama": "bagus",
-            "alamat": "Jakarta",
-            "umur": 22,
-            "nohp": "0838412312312"
+            "name": "bagus",
+            "address": "Jakarta, Indonesia",
+            "age": 22,
+            "phone": "0838412312312"
         },
         {
             "id": 3,
-            "nama": "hendro",
-            "alamat": "Ngawi",
-            "umur": 23,
-            "nohp": "08574195842312"
+            "name": "hendro",
+            "address": "Ngawi, Indonesia",
+            "age": 23,
+            "phone": "08574195842312"
         },
         {
             "id": 4,
-            "nama": "hadi",
-            "alamat": "Palu",
-            "umur": 21,
-            "nohp": "08574195842312"
+            "name": "hadi",
+            "address": "Palu, Indonesia",
+            "age": 21,
+            "phone": "08574195842312"
         },
         {
             "id": 5,
-            "nama": "esti",
-            "alamat": "Lampung",
-            "umur": 24,
-            "nohp": "08574195842312"
+            "name": "esti",
+            "address": "Lampung, Indonesia",
+            "age": 24,
+            "phone": "08574195842312"
         },
         {
             "id": 6,
-            "nama": "yayan",
-            "alamat": "Groboga",
-            "umur": 21,
-            "nohp": "08574295842312"
+            "name": "yayan",
+            "address": "Groboga, Indonesia",
+            "age": 21,
+            "phone": "08574295842312"
         },
         {
             "id": 7,
-            "nama": "raisa",
-            "alamat": "Malang",
-            "umur": 23,
-            "nohp": "08574195842312"
+            "name": "raisa",
+            "address": "Malang, Indonesia",
+            "age": 23,
+            "phone": "08574195842312"
         },
         {
             "id": 8,
-            "nama": "gatra",
-            "alamat": "Solo",
-            "umur": 23,
-            "nohp": "08574195842312"
+            "name": "gatra",
+            "address": "Solo, Indonesia",
+            "age": 23,
+            "phone": "08574195842312"
         },
         {
             "id": 9,
-            "nama": "bambang",
-            "alamat": "Salatiga",
-            "umur": 23,
-            "nohp": "08574195842312"
+            "name": "bambang",
+            "address": "Salatiga, Indonesia",
+            "age": 23,
+            "phone": "08574195842312"
         },
         {
             "id": 10,
-            "nama": "Budi",
-            "alamat": "Kediri",
-            "umur": 27,
-            "nohp": "08574195842312"
+            "name": "Budi",
+            "address": "Kediri, Indonesia",
+            "age": 27,
+            "phone": "08574195842312"
         },
         {
             "id": 11,
-            "nama": "dedi",
-            "alamat": "Aceh",
-            "umur": 25,
-            "nohp": "08574195842312"
+            "name": "dedi",
+            "address": "Aceh, Indonesia",
+            "age": 25,
+            "phone": "08574195842312"
         }
       ]
 }
