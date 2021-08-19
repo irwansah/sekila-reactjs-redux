@@ -94,7 +94,7 @@ const pageButtonRenderer = ({
         styleButton = "btn btn-light me-1";
     }
     return (
-        <ButtonGroup>
+        <ButtonGroup key={page}>
             <Button href="/" onClick={handleClick} className={styleButton}>{page}</Button>
         </ButtonGroup>
     );
@@ -124,7 +124,7 @@ const TableComponent = (props) => {
         <Container>
             {props.getUserList ?
                 <ToolkitProvider
-                    bootstrap4
+                    bootstrap4={true}
                     keyField='id'
                     data={props.getUserList}
                     columns={columns}

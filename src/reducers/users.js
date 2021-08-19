@@ -1,9 +1,11 @@
-import { GET_USER_DETAIL, GET_USER_LIST } from '../actions/userAction'
+import { GET_USER_DETAIL, GET_USER_LIST, POST_USER_CREATE,PUT_USER_EDIT } from '../actions/userAction'
 let initialState = {
   title: "Sekila",
   getUserList: false,
   errorUserList: false,
   getUserDetail: false,
+  getResponseDataUser: false,
+  errorResponseDataUser: false,
   errorUserDetail: false
 };
 
@@ -22,6 +24,20 @@ const users = (state = initialState, action) => {
       getUserDetail: action.payload.data,
       errorUserDetail: action.payload.errorMessage
     }
+
+    case POST_USER_CREATE:
+    return {
+      ...state,
+      getResponseDataUser: action.payload.data,
+      errorResponseDataUser: action.payload.errorMessage
+    }
+    case PUT_USER_EDIT:
+    return {
+      ...state,
+      getResponseDataUser: action.payload.data,
+      errorResponseDataUser: action.payload.errorMessage
+    }
+
 
 
     default:
