@@ -1,5 +1,6 @@
 # Sekila
 ### Simple crud starter template with react redux
+![sekila](image.png)
 #### The simple fun,cruds for reactjs application.
 
 with https://jsonplaceholder.typicode.com/
@@ -22,3 +23,4 @@ using fake api : https://my-json-server.typicode.com/irwansah/backend/users/
 - sweetalert  "2.1.2"
 
 > dont forget run `npm install`
+
