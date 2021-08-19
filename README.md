@@ -1,5 +1,5 @@
 # Sekila
-### Simple crud starter template with react redux
+### Simple starter CRUD template with react redux
 ![sekila](image.png)
 #### The simple fun,cruds for reactjs application.
 

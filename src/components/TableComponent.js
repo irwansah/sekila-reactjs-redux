@@ -7,7 +7,47 @@ import ToolkitProvider, { Search } from "react-bootstrap-table2-toolkit";
 import paginationFactory from "react-bootstrap-table2-paginator";
 import { Link } from 'react-router-dom';
 import { connect } from "react-redux";
+import swal from 'sweetalert';
 
+const handleClick=(id)=>{
+    swal({
+        title: "Are you sure?",
+        text: "Once deleted, you will not be able to recover this data",
+        icon: "warning",
+        dangerMode: true,
+        buttons: {
+            
+            confirm: {
+                className:"btn-danger text-white"
+            },
+            cancel: true,
+
+            
+          },
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          swal("Poof! Your data has been deleted!", {
+            icon: "success",
+            buttons: {
+                confirm: {
+                    className:"btn-success text-white"
+                }
+                
+              },
+          });
+        } else {
+          swal("Your data is safe!",{
+            buttons: {
+                confirm: {
+                    className:"btn-success text-white"
+                }
+                
+              },
+          });
+        }
+      });
+}
 const { SearchBar } = Search;
 const columns = [{
     dataField: 'id',
@@ -51,7 +91,7 @@ const columns = [{
                 </Link>
 
 
-                <Button className="btn btn-success btn-sm mb-2 me-2 text-white" >
+                <Button className="btn btn-success btn-sm mb-2 me-2 text-white"  onClick={()=>handleClick(row.id)}>
                     <FontAwesomeIcon icon={faTrash} /> Delete
                 </Button>
             </div>

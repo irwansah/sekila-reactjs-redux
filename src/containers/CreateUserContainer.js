@@ -24,12 +24,24 @@ const mapStateToProps=(state)=>{
                     title: "User created",
                     text: `${this.props.getResponseDataUser.name} created`,
                     icon: "success",
+                    buttons: {
+                        confirm: {
+                            className:"btn-success text-white"
+                        }
+                        
+                      },
                   });
             }else{
                 swal({
                     title: "User not created!",
                     text: `${this.props.getResponseDataUser.name} failed to create`,
                     icon: "error",
+                    buttons: {
+                        confirm: {
+                            className:"btn-success text-white"
+                        }
+                        
+                      },
                   });
             }
             
