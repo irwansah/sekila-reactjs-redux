@@ -21,4 +21,4 @@ using fake api : https://my-json-server.typicode.com/irwansah/backend/users/
 - redux-thunk  "2.3.0"
 - sweetalert  "2.1.2"
 
-> dont forget run *npm install"
+> dont forget run `npm install`
